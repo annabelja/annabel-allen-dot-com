@@ -1,15 +1,15 @@
 export const ContactLinks = () => {
     return (
-        <>
-            <a href="mailto:annabelja17@gmail.com" style={{paddingLeft: '4px', paddingRight: '4px'}}>
+        <div>
+            <a href="mailto:annabelja17@gmail.com">
                 Email
             </a>
-            <a href="https://www.linkedin.com/in/annabeljallen" style={{paddingLeft: '4px', paddingRight: '4px'}}>
+            <a href="https://www.linkedin.com/in/annabeljallen">
                 LinkedIn
             </a>
-            <a href="https://github.com/annabelja" style={{paddingLeft: '4px', paddingRight: '4px'}}>
+            <a href="https://github.com/annabelja">
                 Github
             </a>
-        </>
+        </div>
     )
 }
