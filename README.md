@@ -1,3 +1,3 @@
 # annabel-allen-dot-com
 
-Personal website for Annabel Allen, to be deployed at AnnabelAllen.com
+Personal website for Annabel Allen, hosted at AnnabelAllen.com
