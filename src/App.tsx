@@ -1,6 +1,6 @@
 import './App.css'
 import { ContactLinks } from './components/ContactLinks'
-import annabelInSeattleImage from './images/Annabel_in_Seattle.jpg'
+import annabelInSeattleImage from './assets/Annabel_in_Seattle.jpg'
 
 function App() {
   return (
