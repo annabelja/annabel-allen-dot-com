@@ -1,15 +1,14 @@
+import { Link } from "react-router";
 
 export const AboutMe = () => {
     return (
         <section className="about-me">
             <h1>About Me</h1>
             <p>
-                Welcome to my website! I&apos;m Annabel Allen, a Senior Frontend Software Engineer at Target.
-                I&apos;ve been with Target since 2019, where I currently work on Target.com,
-                specifically Product Detail Pages and the &quot;Add to cart&quot; experience
+                Welcome to my website! I&apos;m Annabel Allen, a Senior Frontend Software Engineer based in Seattle, WA.
             </p>
             <p>
-                In my free time, I enjoy reading, live music, and spending time outside.
+                If you&apos;re missing the old annabelallen.com, visit <Link to='/archive'>The Archive</Link>
             </p>
         </section>
     );
