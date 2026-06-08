@@ -8,7 +8,7 @@ export const AboutMe = () => {
                 Welcome to my website! I&apos;m Annabel Allen, a Senior Frontend Software Engineer based in Seattle, WA.
             </p>
             <p>
-                If you&apos;re missing the old annabelallen.com, visit <Link to='/archive'>The Archive</Link>
+                If you&apos;re missing the old annabelallen.com, visit <Link className="page-link" to="/archive">The Archive</Link>
             </p>
         </section>
     );

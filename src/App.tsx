@@ -12,8 +12,8 @@ function App() {
       <Link to="/about">About Me</Link>
     </div> */}
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutMe />} />
+        <Route path="/" element={<main className="page-shell"><HomePage /></main>} />
+        <Route path="/about" element={<main className="page-shell"><AboutMe /></main>} />
         <Route path="/archive" element={<AnnabelsPageArchive />} />
       </Routes>
     </Router>

@@ -4,3 +4,29 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.page-shell {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 2rem;
+}
+
+.home-page {
+  max-width: 42rem;
+}
+
+.home-page h1 {
+  color: #002400;
+  margin: 0 0 0.75rem;
+}
+
+.home-page p {
+  margin: 0;
+}
+
+.page-link {
+  color: #006400;
+  text-decoration: none;
+}
