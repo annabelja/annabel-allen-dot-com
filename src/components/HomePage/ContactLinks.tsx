@@ -1,13 +1,13 @@
 export const ContactLinks = () => {
     return (
-        <div>
-            <a href="mailto:annabelja17@gmail.com">
+        <div style={{marginTop: 8}}>
+            <a className="page-link" href="mailto:annabelja17@gmail.com">
                 Email
             </a>
-            <a href="https://www.linkedin.com/in/annabeljallen">
+            <a className="page-link" href="https://www.linkedin.com/in/annabeljallen">
                 LinkedIn
             </a>
-            <a href="https://github.com/annabelja">
+            <a className="page-link" href="https://github.com/annabelja">
                 Github
             </a>
         </div>
