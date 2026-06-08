@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Annabel's Page Archive Unused Files
-src/components/AnnabelsPageArchive/AnnabelsPage/unusedAssets/*
+src/components/AnnabelsPageArchive/unusedAssets/*
