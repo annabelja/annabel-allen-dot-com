@@ -1,18 +1,21 @@
-import './App.css'
-import { ContactLinks } from './components/ContactLinks'
-import { HomePage } from './HomePage'
-// import annabelInSeattleImage from './assets/Annabel_in_Seattle.jpg'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router';
+import './App.css';
+import { HomePage } from './components/HomePage';
+import { AboutMe } from './components/AboutMe';
 
 function App() {
   return (
-  <div>
-    <HomePage/>
-      <footer>
-        <ContactLinks/>
-      </footer>
-      
-    </div>
-  )
+    <Router>
+    {/* <div>
+      <Link to="/">Annabel Allen</Link>
+      <Link to="/about">About Me</Link>
+    </div> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutMe />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
