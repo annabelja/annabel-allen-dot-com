@@ -15,7 +15,7 @@ export const AboutMe = () => {
                 I graduated from the University of Michigan in 2020 with a B.S. in Computer Science, and a minor in Gender and Health.
             </p>
             <p>
-                In my free time, I enjoy reading, concerts, walking my senior chihuahua Theodore, and spending time outside in the PNW, Michigan, or wherever else my friends and family are around the world (recent destinations include California, Morocco, Ireland, and upstate NY).
+                In my free time, I enjoy reading, concerts, junk journaling, walking my senior chihuahua Theodore, and spending time outside in the PNW, Michigan, or wherever else my friends and family are around the world (recent destinations include California, Morocco, Ireland, and upstate NY).
             </p>
             <p>
                 If you&apos;re looking for the original <em>annabelallen.com</em>, visit <Link className="page-link" to="/archive">The Archive</Link>
