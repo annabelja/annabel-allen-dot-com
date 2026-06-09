@@ -18,7 +18,7 @@ export const AboutMe = () => {
                 In my free time, I enjoy reading, concerts, junk journaling, walking my senior chihuahua Theodore, and spending time outside in the PNW, Michigan, or wherever else my friends and family are around the world (recent destinations include California, Morocco, Ireland, and upstate NY).
             </p>
             <p>
-                If you&apos;re looking for the original <em>annabelallen.com</em>, visit <Link className="page-link" to="/archive">The Archive</Link>
+                If you&apos;re looking for the original <em>annabelallen.com</em>, or feeling nostalgic for the late 90s/early 00s, visit <Link className="page-link" to="/archive">The Annabel&apos;s Page Archive</Link>
             </p>
         </section>
     );
