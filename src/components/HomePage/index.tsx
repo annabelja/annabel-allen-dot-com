@@ -1,6 +1,7 @@
 import { Link } from "react-router"
 import { ContactLinks } from "./ContactLinks"
 
+
 export const HomePage = () => {
     return (
         <div className="home-page">
