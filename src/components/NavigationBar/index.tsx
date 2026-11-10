@@ -4,7 +4,7 @@ import { AppBar, Button, Toolbar } from 'react95';
 export const NavigationBar = () =>{
     const navigate = useNavigate();
     const handleNavigate = async (path: string) => {
-        await navigate(path);
+            await navigate(path);
       };
     return (    
     <AppBar>
