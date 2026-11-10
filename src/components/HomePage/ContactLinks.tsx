@@ -1,15 +1,18 @@
+import { MenuList, MenuListItem, Separator, Toolbar } from "react95"
+
 export const ContactLinks = () => {
     return (
-        <div style={{marginTop: 8}}>
-            <a className="page-link" href="mailto:annabelja17@gmail.com">
-                Email
-            </a>
-            <a className="page-link" href="https://www.linkedin.com/in/annabeljallen">
-                LinkedIn
-            </a>
-            <a className="page-link" href="https://github.com/annabelja">
-                Github
-            </a>
-        </div>
+        <Toolbar>
+            <MenuList>
+                <MenuListItem primary>Quick Links</MenuListItem>
+                <Separator />
+                {/*@ts-expect-error -- known issue with MenuListItem 'as' prop */}
+                <MenuListItem style={{cursor: 'pointer'}} as='a' href="mailto:annabelja17@gmail.com" target="_blank" rel="noopener noreferrer">Email</MenuListItem>
+                {/*@ts-expect-error -- known issue with MenuListItem 'as' prop */}
+                <MenuListItem style={{cursor: 'pointer'}} as='a' href="https://www.linkedin.com/in/annabeljallen" target="_blank" rel="noopener noreferrer">LinkedIn</MenuListItem>
+                {/*@ts-expect-error -- known issue with MenuListItem 'as' prop */}
+                <MenuListItem style={{cursor: 'pointer'}} as='a' href="https://github.com/annabelja" target="_blank" rel="noopener noreferrer">GitHub</MenuListItem>
+            </MenuList>
+        </Toolbar>
     )
 }
