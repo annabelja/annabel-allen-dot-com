@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import {
 Window,
 WindowContent,
+WindowHeader,
 } from 'react95';
 
 export const AboutMe = () => {
@@ -9,16 +10,16 @@ export const AboutMe = () => {
         <Window
          style={{
             marginTop: '1rem',
-            padding: '8px',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            fontSize: '18px',
             }}
-        >
-                <h1>About Me</h1>
+        >   
+        <WindowHeader> About Me </WindowHeader>
                 <WindowContent
                     style={{ marginTop: '1rem', padding: '0.1rem 0.25rem', width: '100%' }}
                 >
                     <p>
-                        Welcome to my website! I&apos;m Annabel Allen, a Frontend Web Engineer based in Seattle, WA.
+                        Welcome to my website!<br/>I&apos;m Annabel Allen, a Frontend Web Engineer based in Seattle, WA.
                     </p>
                     <p>
                         Since 2019, I have been working at Target, supporting web applications across the Target ecosystem.
