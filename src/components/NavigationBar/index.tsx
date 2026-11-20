@@ -9,7 +9,7 @@ export const NavigationBar = () =>{
     return (    
     <AppBar>
       <Toolbar>
-          <Button onClick={() => handleNavigate("/")}>Home</Button>
+          <Button onClick={() => handleNavigate("/")} style={{ fontWeight: 'bold' }}>Annabel Allen</Button>
           <Button onClick={() => handleNavigate("/about")}>About</Button>
       </Toolbar>
     </AppBar>
