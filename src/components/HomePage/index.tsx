@@ -2,6 +2,8 @@ import { Link } from "react-router"
 import { ContactLinks } from "./ContactLinks"
 import { Window, WindowContent, WindowHeader } from "react95"
 
+const AnnabelInSeattleImage = new URL("../../assets/Annabel_in_Seattle.JPG", import.meta.url).href
+
 
 export const HomePage = () => {
     return (
@@ -19,7 +21,7 @@ export const HomePage = () => {
                 <WindowHeader>Me!</WindowHeader>
                 <WindowContent>
                     <img
-                        src="src/assets/Annabel_in_Seattle.JPG"
+                        src={AnnabelInSeattleImage}
                         alt="Annabel Allen on a boat in the Puget Sound"
                         width="100%"
                     />
